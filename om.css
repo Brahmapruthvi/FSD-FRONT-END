@@ -1,0 +1,75 @@
+/* --------- Global Reset --------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------- Body --------- */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.6;
+    background: #f6f9fc;
+    color: #1a1a1a;
+    padding: 0 16px;
+}
+
+/* --------- Header --------- */
+header {
+    text-align: center;
+    padding: 50px 0;
+    background: #0b3760;
+    color: #fff;
+    margin-bottom: 0px;
+    border-radius: 0 0 6px 16px;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+/* --------- Sections --------- */
+main section {
+    background: #fff;
+    padding: 30px 22px;
+    margin-bottom: 6px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover effect */
+main section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.10);
+}
+
+/* Section Titles */
+main section h2 {
+    color: #0b3760;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Paragraph Text */
+main section p {
+    font-size: 16px;
+    color: #444;
+}
+
+/* --------- Responsive --------- */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 26px;
+    }
+
+    main section h2 {
+        font-size: 20px;
+    }
+
+    main section {
+        padding: 22px 18px;
+    }
+}
